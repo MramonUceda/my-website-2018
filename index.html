@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+  <title>Web Site Mramon</title>
+</head>
+
+<body data-spy="scroll" data-target="#navbar" data-offset="59">
+  <!--header-->
+  <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="" alt="Mi Logotipo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#main">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#certificados">Cursos certificados</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#place-time">Mas Sobre Mi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-resaltar" href="#" data-toggle="modal" data-target="#modalCompa">Compra algo</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--/header-->
+
+  <!--Main-->
+  <main id="main">
+    <div id="carousel" class="carousel slide" data-ride="carousel" data-pause="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="images/server.jpg" alt="Encantó">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/ServidoreEncnto.jpg" alt="piel China">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/servidores-dedicados.jpg" alt="Muy pronto">
+        </div>
+      </div>
+      <div class="overlay">
+        <div class="container">
+          <div class="row align-iterms-center">
+            <div class="col-md-6 offset-md-6 text-center text-md-right">
+              <h1>My Web Site</h1>
+              <p class="d-none d-md-block">Este es mi web site, creada desde cero.
+                Conoce mas sobre mis proyectos.
+              </p>
+              <a href="#" class="btn btn-outline-light">Mi blog</a>
+              <button type="button" class="btn btn-miweb" data-toggle="modal" data-target="#modalCompa">Comprar Algo</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!--/Main-->
+
+  <!--Speaker/cursos -->
+  <section id="certificados" class="mt-4">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center text-uppercase">
+          <small>Platzi Perfil Cursos</small>
+          <h2 c>certificados y Carreras</h2>
+
+        </div>
+      </div>
+      <div class="row md">
+        <div class="col-md-6 col-lg-4 mb-4 ">
+          <div class="card">
+            <img class="card-img-top" src="certificados/programacion-basica.jpg" alt="diploma-programacion-basica">
+            <div class="card-body">
+              <h5 class="card-title mb-0">Curso de Programacion-Básica</h5>
+              <div class="badges">
+                <span class="badge badge-success mb-2">Platzi</span>
+                <span class="badge badge-info">JavaScript y HTML</span>
+              </div>
+              <p class="card-text">Programa desde cero, manejo de JavaScript,HTML.</p>
+              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="certificados/algoritmos-c.jpg" alt="diploma-programacion-basica">
+            <div class="card-body">
+              <h5 class="card-title mb-0">Curso de Algoritmos con "Lenguaje-C"</h5>
+              <span class="badge badge-success mb-2">Platzi</span>
+              <span class="badge badge-info">Lenguaje-C</span>
+              <p class="card-text">Programa desde cero con C, conocimientos de algunos algoritmos en
+                "C".</p>
+              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="certificados/bd.jpg" alt="diploma-programacion-basica">
+            <div class="card-body">
+              <h5 class="card-title mb-0">Fundamentos de Bases de Datos</h5>
+              <span class="badge badge-success mb-2">Platzi</span>
+              <span class="badge badge-info">Base de Datos</span>
+              <p class="card-text">Forma de como trabajan las Bases de Datos (Relacionales y no Relacionales)</p>
+              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="certificados/git-github.jpg" alt="diploma-programacion-basica">
+            <div class="card-body">
+              <h5 class="card-title mb-0">Curso Profesional de Git y GitHub</h5>
+              <span class="badge badge-success mb-2">Platzi</span>
+              <span class="badge badge-info">Git/GitHub</span>
+              <p class="card-text">Manejo de versionador</p>
+              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="certificados/terminal-2016.jpg" alt="diploma-programacion-basica">
+            <div class="card-body">
+              <h5 class="card-title mb-0">Terminal Línea de comandos 2016</h5>
+              <span class="badge badge-success mb-2">Platzi</span>
+              <span class="badge badge-info">Terminal/Consola</span>
+              <p>Bases para entender la potencia de la terminal y como trabajar con ella
+                (Línea de Comandos).</p>
+              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="certificados/java-basico-2015.jpg" alt="diploma-programacion-basica">
+            <div class="card-body">
+              <h5 class="card-title mb-0">Curso Básico de Java</h5>
+              <span class="badge badge-success mb-2">Platzi</span>
+              <span class="badge badge-info">Java Básico</span>
+              <p class="card-text">Ques es Java|, conocimientos básicos de Java,programación orientada a objetos.</p>
+              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="certificados/java-basico.jpg" alt="diploma-programacion-basica">
+            <div class="card-body">
+              <h5 class="card-title mb-0">Curso Básico de Java SE</h5>
+              <span class="badge badge-success mb-2">Platzi</span>
+              <span class="badge badge-info">Java SE</span>
+              <p class="card-text">Programación orientada a objetos, como opera y crea tu trabajos simples</p>
+              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="certificados/java-avanzado.jpg" alt="diploma-programacion-basica">
+            <div class="card-body">
+              <h5 class="card-title mb-0">Curso Avanzado de Java SE</h5>
+              <span class="badge badge-success mb-2">Platzi</span>
+              <span class="badge badge-info">Java SE Avanzado</span>
+              <p class="card-text">Conocimientos más a fondo de java trabajando con Bases de Datos.</p>
+              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="certificados/javaEE.jpg" alt="diploma-programacion-basica">
+            <div class="card-body">
+              <h5 class="card-title mb-0">Curso Profesional de Java EE</h5>
+              <span class="badge badge-success mb-2">Platzi</span>
+              <span class="badge badge-info">Java EE</span>
+              <p class="card-text"> Spring, el framework más robusto de Java y otras tecnologías</p>
+              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!--/speaker/cursos-->
+
+  <!--Lugar y fecha-->
+  <section id="place-time">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-lg-6 pl-0 pr-0 ">
+          <img src="images/hawaii.jpg" alt="Platzi" />
+        </div>
+        <div class="col-12 col-lg-6 pt-2 pb-5 pt-5">
+          <h2>Mario Ramón Desarrollador Web</h2>
+          <p>Mauris euismod lectus eget mauris egestas, eget lacinia dolor laoreet. Phasellus vitae hendrerit lorem.
+            Praesent dignissim
+            tempus odio, quis congue neque ullamcorper in. Nullam placerat, quam eget hendrerit volutpat, urna leo
+            suscipit odio, ac facilisis
+            lectus leo gravida dui. Morbi in velit et ipsum mattis congue. Fusce sed est vel augue pretium fringilla.
+            Integer feugiat, diam in
+            tempor dapibus, ex odio auctor ipsum, ut auctor elit turpis et erat. Morbi sit amet scelerisque magna.
+          </p>
+          <a class="btn btn-outline-light" href="http://www.facebook.com" target="_blank">Conoce mi blog</a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!--/Lugar y fecha-->
+
+  <!--Trabajemos juntos-->
+  <section id="trabajemos-juntos" class="pt-3 pb-3">
+    <div class="container">
+      <div class="row">
+        <div class="col text-uppercase text-center">
+          <small>Trabajemos </small>
+          <h2>juntos</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center">
+          Podemos trabajar juntos o bien puedo hacer tú <abbr data-toggle="tooltip" title="Sitio Web">website</abbr>.
+          Trabajemos juntos!!
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 c pt-2 ">
+          <form>
+            <div class="form-row">
+              <div class="form-group col-12 col-md-6">
+                <input type="text" class="form-control" placeholder="Nombre">
+              </div>
+              <div class="form-group col-12 col-md-6">
+                <input type="text" class="form-control" placeholder="Apellido">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col">
+                <textarea name="text" class="form-control form-control-lg" placeholder="¿Sobre qué quieres hablar?"></textarea>
+                <small class="form-text text-muter">
+                  <!--con text-muter esto aparecerá un poco mas gris-->
+                  Recuerda incluir un titulo para tú charla
+                </small>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col">
+                <button type="button" class="btn btn-miweb">Enviar</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Trabajemos juntos-->
+
+  <!--footer-->
+  <footer id="footer" class="pb-4 pt-4">
+    <!--pb<-padding botton pt-4 <-padding top -->
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-12 col-lg">
+          <a href="#">Contactame</a>
+        </div>
+        <div class="col-12 col-lg">
+          <a href="#">Facebook</a>
+        </div>
+        <div class="col-12 col-lg">
+          <a href="#">Instagram</a>
+        </div>
+        <div class="col-12 col-lg">
+          <a href="#">GitHub</a>
+        </div>
+        <div class="col-12 col-lg">
+          <a href="#">PerfilPlatzi</a>
+        </div>
+        <div class="col-12 col-lg">
+          <a href="#">Cursos Fuera de Platzi</a>
+        </div>
+        <div class="col-12 col-lg">
+          <a href="#">Quién Soy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--/footer-->
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="modalCompa" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Compra Algo</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-row">
+              <div class="form-group col">
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                  </div>
+                  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+              </div>
+            </div>
+          </form>
+          <!--Alerta:-->
+          <div class="alert alert-warning" role="alert">
+            Recibiras un correo de confirmación o bien enviame lo que necesitas.
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+          <button type="button" class="btn btn-miweb">Comprar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/Model-->
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
